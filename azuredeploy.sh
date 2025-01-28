@@ -2,10 +2,10 @@
 
 # Update and install necessary packages
 sudo apt-get update
-sudo apt-get install -y apache2  php libapache2-mod-php php-cli php-mysql laravel mysql-server
+sudo apt-get install -y apache2 php libapache2-mod-php php-cli php-mysql mysql-server
 
 # Download and install WordPress
-wget -c http://wordpress.org/latest.zip
+wget -c https://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 sudo mv wordpress/* /var/www/html/
 
